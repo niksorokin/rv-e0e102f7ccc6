@@ -1,0 +1,16 @@
+<!--
+  Tab icon — the current Silow mark, same geometry as /assets/logo-upd.svg in the header.
+  It replaced a purple lightning bolt (#863bff) that was two logos out of date and only ever
+  showed on the Astro pages, so the tab icon changed the moment you left the landing.
+
+  Deliberately simplified from logo-upd.svg: the two inner-shadow filters are dropped. They
+  are invisible at 16px and cost more bytes than the rest of the icon put together.
+
+  site-pages/public/favicon.svg is a byte-identical copy — change both, or the tab icon
+  starts drifting between the landing and everything else again.
+-->
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="26" fill="white"/>
+  <ellipse cx="40.292" cy="59.9822" rx="21.6846" ry="33.8823" transform="rotate(45 40.292 59.9822)" fill="black"/>
+  <ellipse cx="79.292" cy="60.2917" rx="21.6846" ry="33.8823" transform="rotate(45 79.292 60.2917)" fill="black"/>
+</svg>
